@@ -1,8 +1,8 @@
 
 package Metodos;
 
-import logica_negocio.Prestamo;
-import logica_negocio.Usuario;
+import ClasesYMain.Prestamo;
+import ClasesYMain.Usuario;
 import java.util.ArrayList;
 
 public class MetodoUsuario {

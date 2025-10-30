@@ -1,8 +1,8 @@
 
 package Metodos;
 
-import logica_negocio.Libro;
-import logica_negocio.Prestamo;
+import ClasesYMain.Libro;
+import ClasesYMain.Prestamo;
 import java.util.ArrayList;
 
 public class MetodoLibro {
@@ -86,7 +86,7 @@ public class MetodoLibro {
                         libro.setEjemplares(Integer.parseInt(nuevoValor));
                     }catch(NumberFormatException e){
                         System.out.println("Número de ejemplares no válido.");
-                    }
+                     }
                 } 
                 case 5 ->{
                     libro.setCodigo(nuevoValor);

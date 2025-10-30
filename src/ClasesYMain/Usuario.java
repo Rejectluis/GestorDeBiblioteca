@@ -1,5 +1,5 @@
 
-package logica_negocio;
+package ClasesYMain;
 
 public class Usuario {
     //Atributos

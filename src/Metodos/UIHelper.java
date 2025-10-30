@@ -2,9 +2,9 @@
 package Metodos;
 
 import java.util.Scanner;
-import logica_negocio.Libro;
-import logica_negocio.Usuario;
-import logica_negocio.Prestamo;
+import ClasesYMain.Libro;
+import ClasesYMain.Usuario;
+import ClasesYMain.Prestamo;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -293,7 +293,7 @@ public class UIHelper {
                 datoUser = entrada.nextLine();                       //Se guarda el dato del usuario
                 System.out.println("Titulo o código del libro: ");
                 String datoLibro = entrada.nextLine();                      //Se guarda el dato del libro
-                Prestamo prestamo = logica_negocio.Prestamo.registrarPrestamo(datoUser, datoLibro);//Se llama el método prestar
+                Prestamo prestamo = ClasesYMain.Prestamo.registrarPrestamo(datoUser, datoLibro);//Se llama el método prestar
                 /*
                 if(prestamo!= null){ 
                     System.out.println("¡Préstamo exitoso!");
@@ -326,7 +326,7 @@ public class UIHelper {
                 System.out.println("Titulo o código: ");
                 datoLibro = entrada.nextLine();
                 
-                Prestamo prestamoDevuelto = logica_negocio.Prestamo.registrarDevolucion(datoUser, datoLibro);
+                Prestamo prestamoDevuelto = ClasesYMain.Prestamo.registrarDevolucion(datoUser, datoLibro);
                 
                 if(prestamoDevuelto!= null){
                     System.out.println("\n¡Devolución hecha con éxito!\nFecha: "+prestamoDevuelto.getFechaDevolucion());

@@ -1,5 +1,5 @@
 
-package logica_negocio;
+package ClasesYMain;
 
 import Metodos.MetodoLibro;
 import java.util.Scanner;

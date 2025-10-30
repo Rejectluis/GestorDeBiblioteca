@@ -1,11 +1,11 @@
 
-package logica_negocio;
+package ClasesYMain;
 
 import java.time.LocalDate;
 import Metodos.MetodoLibro;
 import Metodos.MetodoUsuario;
-import logica_negocio.Usuario;
-import logica_negocio.Libro;
+import ClasesYMain.Usuario;
+import ClasesYMain.Libro;
 import java.util.ArrayList;
 
 

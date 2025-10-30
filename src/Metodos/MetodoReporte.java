@@ -1,9 +1,9 @@
 
 package Metodos;
 
-import logica_negocio.Usuario;
-import logica_negocio.Libro;
-import logica_negocio.Prestamo;
+import ClasesYMain.Usuario;
+import ClasesYMain.Libro;
+import ClasesYMain.Prestamo;
 import java.util.ArrayList;
 
 public class MetodoReporte {
@@ -61,7 +61,7 @@ public class MetodoReporte {
         }
         */
         sb.setLength(0);
-        ArrayList<Prestamo> lista = logica_negocio.Prestamo.getPrestamosLista();
+        ArrayList<Prestamo> lista = ClasesYMain.Prestamo.getPrestamosLista();
         
         // Verifica si la lista es null o está vacía (ningún préstamo registrado aún)
         if (lista == null || lista.isEmpty()) {
